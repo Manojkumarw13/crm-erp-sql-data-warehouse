@@ -10,11 +10,9 @@ A small ELT-style SQL data warehouse demo using PostgreSQL schemas (bronze → s
 - Data modeling (dimensions/facts), surrogate keys
 - SQL-based data quality checks
 
-## Repository Contents
-- [`.gitignore`](.gitignore)  
-- [`FUNDING.yml`](FUNDING.yml)  
+## Repository Contents 
 - [`LICENSE`](LICENSE)  
-- [`README.md`](README.md) (this file)
+- [`README.md`](README.md)
 
 Datasets:
 - [datasets/source_crm/cust_info.csv](datasets/source_crm/cust_info.csv)  
@@ -86,8 +84,3 @@ Tests / Quality Checks:
 ## Running Tips
 - Use a transaction or run each DDL independently for easier debugging.  
 - Inspect RAISE NOTICE output when calling procedures in GUI tools for timing and errors.
-
-## Funding / Contact
-- See [`FUNDING.yml`](FUNDING.yml) for funding/support details.
-
--- end of README
